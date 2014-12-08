@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export INSTALL_ENV="$1"
+
+source "$HOME"/.templates/provisioning/mac.sh
+source "$HOME"/.templates/provisioning/homebrew.sh
+source "$HOME"/.templates/provisioning/ruby.sh
+source "$HOME"/.templates/provisioning/mac-apps.sh
+source "$HOME"/.templates/provisioning/fonts.sh
+source "$HOME"/.templates/provisioning/post-install.sh
+
+echo "Please reboot your machine!"
