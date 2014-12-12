@@ -25,7 +25,10 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock persistent-others -array
 
-# Set Natural Scrolling
+# Enable Volume Adjust noise
+defaults write NSGlobalDomain com.apple.sound.beep.feedback -bool true
+
+# Enable Natural Scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -int 1
 
 # Set Cmd+Ctrl+Q Key Equivalents
