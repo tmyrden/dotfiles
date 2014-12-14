@@ -100,3 +100,5 @@ else
   generate_npmrc
 fi
 
+echo "Please close and relaunch Terminal"
+
